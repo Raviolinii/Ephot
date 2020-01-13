@@ -1,0 +1,454 @@
+html, body, #content {
+	width:100%;
+	height: 100%;
+	margin: 0;
+
+}
+
+h1, h2, h3 {
+	margin:0;
+}
+
+.upper-bot a {
+	color:white;
+	text-decoration:none;
+	font-weight:normal;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 42px;
+	width: 300px;
+	display: block;
+	margin-left: calc(50% - 165px);
+	background-color: #1B2959;
+	border:none;
+	padding: 10px 20px;
+	border-radius:40px;
+	margin-top: calc(50% - 72px);
+	font-family: Roboto;
+	font-style: normal;
+}
+
+.upper-top a {
+	display: block;
+	color:white;
+	text-decoration:none;
+	font-weight:normal;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 30px;
+	width: 250px;
+	background-color: #1CC6EC;
+	border:none;
+	padding: 0px 20px;
+	border-radius:40px;
+	text-align:center;
+}
+
+.media a {
+	color:white;
+	text-decoration:none;
+	font-weight:normal;
+	font-style: normal;
+	font-family: Roboto;
+	font-style: normal;
+}
+
+.facebook{
+	position:absolute;
+	right:100px;
+	bottom:100px;
+}
+
+p {
+	font-size: 30px;
+	line-height: 42px;
+	color:white;
+	font-family: Roboto;
+	font-style: normal;
+	box-sizing: border-box;
+	padding:25px 150px;
+}
+
+.media p {
+	font-size: 30px;
+	line-height: 42px;
+	color:white;
+	font-family: Roboto;
+	font-style: normal;
+	box-sizing: border-box;
+	padding:25px 50px;
+}
+
+.top {
+	background-image:url("images/Frame3.png");
+	background-size: cover;
+	color:white;
+	height:100vh;
+	position: relative;
+}
+
+.upper-bot{
+	background-image: url("images/tlo2.jpg");
+	background-size: cover;
+	color:white;
+	height:100vh;
+	display: flex;
+}
+
+.upper-bottom{
+	background: radial-gradient(61.53% 61.53% at 52.34% 52.18%, #555D74 0%, #1E3061 51.45%), #031050;
+	display:flex;
+}
+
+.describe{
+	height:100vh;
+	width: 60%;
+}
+
+.image{
+	background-image: url("images/bgartgallery.jpg");
+	background-size: cover;
+	color:white;
+	height:100vh;
+	width: 40%;
+}
+.bottom-bottom{
+	background: #0B1134;
+	display:flex;
+}
+
+.about-us{
+	color:white;
+	height:100vh;
+	width: 50%;
+	box-sizing:border-box;
+	padding: 50px 0;
+}	
+
+.about-us h3 {
+	padding: 0 150px;
+}
+
+.media{
+	color:white;
+	height:100vh;
+	width: 50%;
+	box-sizing:border-box;
+	padding: 50px 0;
+}
+
+.media h3 {
+	padding: 0 150px;
+}
+
+.logo {
+	display:block;
+	margin-left:200px;
+	
+}
+
+.headers{
+	text-align: right;
+	margin-right: 100px;
+}
+
+.fixer{
+	height:50px;
+}
+
+.logo img {
+	width:200px;
+	height: auto;
+}
+
+.ephot, .why-us {
+	width:50%;
+	text-align: center;	
+}
+
+.insta, .mail, .phone {
+	display:flex;
+	margin-left: 150px;
+}
+
+.insta {
+	margin-top: 25px;
+}
+
+.image p {
+	display: none;
+}
+
+h3.your-history {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 42px;
+}
+
+h1{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 84px;
+}
+
+h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 42px;
+}
+
+@media (max-width: 1500px) {
+	.about-us {
+    height: max-content;
+}
+.media {
+    height: max-content;
+}
+}
+
+@media (max-width: 1370px) {
+p {
+    font-size: 25px;
+}
+.about-us p{
+	margin:0;
+}
+}
+
+@media (max-width: 1240px) {
+.media p {
+    font-size: 20px;
+    padding: 25px 0px 25px 50px;
+}
+}
+
+@media (max-width: 1228px) {
+p {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1110px){
+.about-us p {
+    font-size: 20px;
+    padding: 25px 80px 0px;
+}
+.about-us h3 {
+    padding: 0 80px;
+}
+}
+
+@media (max-width: 1100px){
+div.describe {
+    display:none;
+}
+div.image{
+	width:100%;
+}
+div.image p {
+	display:block;
+}
+}
+
+@media (max-width: 970px){
+.bottom-bottom {
+    display: block;
+}
+.about-us {
+    width: 100%;
+    padding: 50px 0;
+}
+.media {
+    width: 100%;
+    padding: 50px 0;
+	text-align:center;
+}
+
+.media h3 {
+    padding: 0;
+}
+.insta, .mail, .phone {
+    margin-left: 30%;
+	text-align:center;
+}
+}
+
+@media (max-width: 930px) and (max-height: 770px){
+	.image{
+		height:max-content;
+	}
+}
+
+@media (max-width: 850px) {
+  .logo {
+	  margin-left: 0px;
+	  text-align: center;
+  }
+  
+  .headers {
+    text-align: center;
+    margin-right: 0px;
+}
+	h3.your-history{
+		display:none;
+	}
+}
+@media (max-width: 800px) {
+  .upper-bot{
+	  display:block;
+	  position: relative;
+  }
+  
+  .upper-bot a{
+	  margin: 0;
+	  padding: 10px 0px;
+  }
+  .ephot {
+	  position:absolute;
+	  top:150px;
+	  left: calc(50% - 120px);
+  }
+  .why-us{
+	  position:absolute;
+	  bottom:150px;
+	  left: calc(50% - 120px);
+  }
+}
+@media (max-width: 690px) {
+  .fixer {
+    height: 10px;
+}
+  h3.your-history {
+    margin-top: -20px;
+}
+}
+
+@media (max-width:600px){
+	p {
+    padding: 25px 50px;
+}
+}
+
+@media(max-width:540px){
+	.media {
+    padding: 50px 0 0;
+}
+
+.insta, .mail, .phone {
+    margin-left: 15%;
+    text-align: center;
+}
+}
+
+@media (max-width: 500px) {
+h1{
+	font-size: 30px;
+	line-height: 84px;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 42px;
+}
+
+h3.your-history {
+    font-size: 20px;
+    line-height: 42px;
+}
+ .ephot {
+
+	  left: calc(50% - 170px);
+  }
+  .why-us{
+
+	  left: calc(50% - 170px);
+  }
+}
+@media (max-width: 440px) {
+.facebook{
+	right:0;
+	bottom: 100px;
+	text-align: center;
+	left: 0;
+	margin-left: 50px;
+}
+.image {
+    height: max-content;
+}
+}
+
+@media (max-width:420px){
+	.about-us p {
+    padding: 25px 20px 0px;
+}
+.insta img, .mail img, .phone img {
+    display: none;
+}
+
+.media p {
+    padding: 10px 0px 10px 50px;
+}
+}
+
+@media (max-width: 350px) {
+.facebook{
+	margin-left: 20px;
+}
+h1 {
+    line-height: 40px;
+	margin: 20px 0;
+}
+ .ephot {
+
+	  left: 10px;
+  }
+  .why-us{
+
+	  left: 10px;
+  }
+}
+
+@media (max-height: 740px){
+	.facebook {
+    bottom: 20px;
+}
+.fixer {
+    height: 10px;
+}
+}
+
+@media (max-height: 650px){
+	div.describe {
+    display:none;
+}
+div.image{
+	width:100%;
+}
+div.image p {
+	display:block;
+}
+}
+
+@media (max-height: 630px){
+h1{
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;	
+}
+
+h3.your-history {
+    font-size: 20px;
+    line-height: 42px;
+}
+.headers {
+    margin-top: -100px;
+}
+}
