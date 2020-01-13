@@ -267,14 +267,13 @@ div.image p {
 .media {
     width: 100%;
     padding: 50px 0;
-	text-align:center;
 }
 
 .media h3 {
-    padding: 0;
+    padding: 0 0 0 80px;
 }
 .insta, .mail, .phone {
-    margin-left: 30%;
+    margin-left: 80px;
 	text-align:center;
 }
 }
@@ -392,7 +391,19 @@ h3.your-history {
 }
 
 .media p {
-    padding: 10px 0px 10px 50px;
+    padding: 10px 0px 10px 0;
+}
+
+.insta, .mail, .phone {
+    margin-left: 20px;
+}
+
+.about-us h3 {
+    padding: 0 20px;
+}
+
+.media h3 {
+    padding: 0 0 0 20px;
 }
 }
 
